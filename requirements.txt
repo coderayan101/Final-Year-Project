@@ -1,0 +1,28 @@
+# Core ML
+tensorflow==2.19.0
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+joblib==1.4.2
+
+# Image / vision
+pillow==10.3.0
+opencv-python==4.9.0.80
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Explainability
+# (Grad-CAM is implemented from scratch in src/gradcam.py — no extra dep needed)
+
+# Web app
+streamlit==1.33.0
+streamlit-autorefresh==1.0.1
+
+# Backend server
+flask==3.0.3
+flask-cors==4.0.1
+requests==2.31.0
+
+# Utilities
+tqdm==4.66.2
+python-dotenv==1.0.1

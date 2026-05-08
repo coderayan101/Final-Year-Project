@@ -1,0 +1,39 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data — too large for git
+data/plantvillage_raw/
+data/train/
+data/val/
+data/test/
+data/sensor/*.csv
+
+# Models — too large for git
+models/**/*.h5
+models/**/*.tflite
+models/**/*.pkl
+models/**/*.keras
+
+# Generated outputs
+server/static/gradcam/*.png
+reports/figures/*.png
+reports/results/*.csv
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
